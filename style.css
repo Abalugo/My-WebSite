@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.h3{
+    display: flex;
+}
+.navbar{
+     display: flex;
+     justify-content: space-between;
+     justify-items: center;
+     margin: 10px 20px 10px 20px;
+}
+.nav-container{}
+.nav-item{
+        list-style: none;
+        display: flex;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+    padding-left: 50px;
+}
+.nav-link:hover{
+    color: rgb(138, 6, 247);
+}
+.header-content{
+    text-align: center;
+}
+.header-content-paragraph{
+    font-size: 1.1rem;
+}
+.header-btn{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.header-btn2{
+    width: 100px;
+    height: 40px;
+    background-color:white ;
+    color: blue;
+    margin-top: 20px;
+    border: 0 ;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.first-body-content{
+    position: relative;
+}
+.gradient-img{
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+}
+.gradient-img2{
+    position: absolute;
+    top: 500px;
+    z-index: 0;
+}
+.desktop-img{
+    position: absolute;
+    z-index: 2;
+    
+}
+.mobile-img{
+    position: absolute;
+    z-index: 3;
+    top: 274px;
+    right: 200px;
+
+}
+.logo-section{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: #ffff;
+    font-size: 1.2rem;
+    z-index: 4;
+    top: 1000px;
+    left: 80px;
+    margin-bottom: 20px;
+}
+/* Sales Montoring Section */
+.sales-monitoring{
+    width: 1280px;
+    height: 628px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 24px; */
+    /* margin: 10px; */
+    position: relative;
+}
+.sales-first-grid{
+
+}
+.sales-second-grid{
+    position: absolute;
+    /* width: 628px; */
+    /* height: 628px; */
+    background-color: #E3F1FF;
+}
